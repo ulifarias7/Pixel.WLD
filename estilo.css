@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(to bottom, #0c1517,#316c79); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #E7D691;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    text-align: center;
+    animation: zoomIn 1.5s ease-in-out;
+}
+
+.logo img {
+    width: 12rem;
+    padding: 0;
+    margin: 5px;
+    animation: rotateIn 2s ease-in-out;
+}
+
+.main-title {
+    text-align: center;
+    margin: 5px 0; 
+    animation: slideInLeft 1.5s ease-in-out;
+}
+
+.main-title p {
+    font-size: 2rem;
+    color: #E7D691;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.whatsapp {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+    animation: bounce 2s infinite;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    background: linear-gradient(90deg, #E7D691, #FFD700);
+    color: #0E2024;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+.button img {
+    width: 30px;
+}
+
+.info {
+    text-align: center;
+    margin: 20px 0; 
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.info p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.info h3 {
+    font-size: 2rem;
+}
+
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        transform: rotate(-360deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

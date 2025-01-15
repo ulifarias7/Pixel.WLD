@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Místico</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/Imagen_de_WhatsApp_2025-01-14_a_las_21.36.26_ef1bf932-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <header class="logo">
+        <img src="./img/Imagen_de_WhatsApp_2025-01-14_a_las_21.36.26_ef1bf932-removebg-preview.png" alt="Tarot Místico">
+    </header>
+
+    <main>
+        <section class="main-title">
+            <p>Bienvenidos !!</p>
+            <p>Tarot Místico Wld</p>
+        </section>
+
+        <section class="whatsapp">
+            <button class="button" id="whatsappButton">
+                <span>Whatsapp</span>
+                <img src="./img/whatsapp_5968967.png" alt="Whatsapp">
+            </button>
+        </section>
+
+        <section class="info">
+            <p>Descubre tu destino con nosotros.</p>
+            <h3>Confía en nuestra  <br>
+            experiencia y sabiduría.</h3>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById("whatsappButton").addEventListener("click", function() {
+            const telefono = "5493517328706";
+            const mensaje = "Hola! Estoy interesado en sus servicios.";
+            const link = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+            window.open(link, '_blank');
+        });
+    </script>
+</body>
+</html>
