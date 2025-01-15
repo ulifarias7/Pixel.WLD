@@ -28,13 +28,13 @@ main {
 .logo img {
     width: 12rem;
     padding: 0;
-    margin: 5px;
+    margin: 0 auto;
     animation: rotateIn 2s ease-in-out;
 }
 
 .main-title {
     text-align: center;
-    margin: 5px 0; 
+    margin: 3px 0; 
     animation: slideInLeft 1.5s ease-in-out;
 }
 
@@ -79,7 +79,7 @@ main {
 
 .info {
     text-align: center;
-    margin: 20px 0; 
+    margin: 0; 
     animation: fadeInUp 1.5s ease-in-out;
 }
 
@@ -89,9 +89,26 @@ main {
 }
 
 .info h3 {
-    font-size: 2rem;
+    font-size: 30px;
 }
 
+.additional-info {
+    text-align: center;
+    margin: 0; 
+    font-size: 1.2rem;
+    color: #E7D691;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.additional-info a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.additional-info a:hover {
+    text-decoration: underline;
+}
 
 @keyframes zoomIn {
     from {
