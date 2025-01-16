@@ -96,6 +96,7 @@ main {
     text-align: center;
     font-size: 1.2rem;
     color: #E7D691;
+    margin-bottom: -5px;
     animation: fadeInUp 1.5s ease-in-out;
 }
 
