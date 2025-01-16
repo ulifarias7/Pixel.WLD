@@ -23,18 +23,20 @@ main {
 .logo {
     text-align: center;
     animation: zoomIn 1.5s ease-in-out;
+    margin: 0;
+    padding: 0;
 }
 
 .logo img {
-    width: 12rem;
-    padding: 0;
-    margin: 0 auto;
+    width: 182px;
+    margin-bottom: -15px;
     animation: rotateIn 2s ease-in-out;
 }
 
 .main-title {
+    margin-top: 0; 
+    padding-top: 0;
     text-align: center;
-    margin: 3px 0; 
     animation: slideInLeft 1.5s ease-in-out;
 }
 
@@ -78,23 +80,19 @@ main {
 }
 
 .info {
-    text-align: center;
-    margin: 0; 
+    text-align: center; 
     animation: fadeInUp 1.5s ease-in-out;
 }
 
-.info p {
-    font-size: 1.2rem;
-    color: white;
-}
 
 .info h3 {
     font-size: 30px;
+    margin: 0; /* Elimina márgenes entre los h3 */
+    line-height: 1; 
 }
 
 .additional-info {
     text-align: center;
-    margin: 0; 
     font-size: 1.2rem;
     color: #E7D691;
     animation: fadeInUp 1.5s ease-in-out;
