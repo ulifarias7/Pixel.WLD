@@ -79,6 +79,7 @@ main {
 }
 
 .info {
+    padding: 5px;
     text-align: center; 
     animation: fadeInUp 1.5s ease-in-out;
 }
