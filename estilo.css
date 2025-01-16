@@ -87,7 +87,7 @@ main {
 
 .info h3 {
     font-size: 27px;
-    margin: 0; /* Elimina márgenes entre los h3 */
+    margin: 0; 
     line-height: 1; 
     color: #FFD700;
 }
