@@ -89,6 +89,7 @@ main {
     font-size: 27px;
     margin: 0; /* Elimina márgenes entre los h3 */
     line-height: 1; 
+    color: #FFD700;
 }
 
 .additional-info {
